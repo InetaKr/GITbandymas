@@ -4,23 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git ir Github įvadas ir pagrindait</title>
 </head>
 <body>
-    <section id="terminaloKomandos">
-        <h1>Terminalo Komandos</h1>
-        <ul>
-            <li> ls/ dir- isvardina aplankalus ir failus kurie yra dabartineje repozitorijoje</li>
-            <li>cd-change directory </li>
-            <li>TAB-reikalingas, skirtas uzbaigti terminalo komanda arba pateikti pasiulymus</li>
-        </ul>
-    </section>
-    <section id="gitKomandos">
-        <h1>GIT Komandos</h1>
-        <ul>
-            <li>git inti-instalizuoja git repizitorija</li>
-        </ul>
-
-    </section>
+    <section id="git">
+    <h1>Git ir Github</h1>
+    <p>
+      <strong>Git</strong> yra kodo versijavimo programa
+    </p>
+    <p>
+      <strong>GitHub</strong> svetainė, kurioje keliamos kodo versijos.
+    </p>
+    <ol>
+      <li>Įsirašyti Git</li>
+      <li>patikrinti ar įrašytas terminale git --v</li>
+      <li>susikurti github</li>
+      <li>cinfig'inti git'ą</li>
+      <ol>
+        <li>git config --global user.name ligitaZA</li>
+        <li>git config --global user.email ligitazaicevaite@gmail.com</li>
+        <li>git config --global core.editor code</li>
+        <li>git config --global core.autocrlf true</li>
+        <li>git config --global -e</li>
+      </ol>
+      <li>Patikrinti ar tvarkingas config failas - git config --global --edit</li>
+      <li>Publish to Github</li>
+    </ol>
+  </section>
+  <section id="terminaloKomandos">
+    <h1>Terminalo komandos</h1>
+    <ul>
+      <li>ls / dir - rodo kuriame faile/aplankale esi. ls -a - parodys ir užslėptą failą</li>
+      <li>cd - changeDirectory - keičia direkoriją, leidžia vaikščioti tarp aplankalų</li>
+      <li>tab - skirtas užbaigti / užpildyti terminalo komandą / pateikti pasiūlymus</li>
+      <li>vidurinis / dešinys pelės mygtukas - įklijuoja tekstą i komandinę eilutę</li>
+      <li>arrow up/down - vaikščiojimas per terminalo komandų istoriją</li>
+    </ul>
+  </section>
+  <section id="gitKomandos">
+    <h1>Git Komandos</h1>
+    <ul>
+      <li>git init - inicializuoja Git repozitoriją</li>
+      <li>git status - parodo git repozitorijos statusą</li>
+      <li>git add ./*/- pridėti failus prie commitinimui paruoštų failų</li>
+      <li>git commit -m "zinute" - sukuriama kodo versija su žinute</li>
+      <li>git push - nusiunčia naujus commitus į serverį</li>
+      <li>git checkout commitID - nukeliauja į nurodytą kodo versiją</li>
+    </ul>
+  </section> 
+  <!-- Atliekant žemiau pateiktą užduotį, tvarkingai ir teisingai versijuojant kodą. (kas kažkokį gabaliuką kodo - daryti naują commit'ą su prasminga žinute (commit žinutės turėtų būti iki 50 simbolių)).
+Atkurti https://www.youtube.com puslapio menu, sidebarMenu ir korteles. (jokių kitų papildomų puslapių nereikia (menu niekur nenukreipia)). -->
 </body>
 </html>
